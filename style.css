@@ -1,0 +1,81 @@
+/*
+    body{
+        background-color:ghostwhite; background-image:url(img1.jpg); background-attachment: scroll;background-repeat: no-repeat;background-size: cover;
+        
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    h1{
+        font-style:italic;
+        font-family: cursive; font-size: 50px;
+        margin: 20px;
+    }
+    #para1{
+        color:BLACK;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: italic; font-size: large;
+        
+    }
+    h2{
+        color:black;font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 15px; font-size: larger;
+    }
+    .center{
+        color: blue; 
+    }
+    .table{
+        border-collapse: collapse; border-style: inset; border-color: darkblue;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;     
+    }   
+    p.dotted{border-style:dotted; margin: 25px;} 
+    hr{
+    border-color:#545454;  
+    width:5%;             
+    border-style:dotted none none none;
+    border-width: 7px;
+    height:0px;
+    }  
+
+*/
+body{    
+    background-size:cover; 
+    background-repeat: no-repeat;
+    /*background-image: url(image/img2.jpg);*/
+    background-position: 10%;
+    background-blend-mode: lighten;
+    background-attachment:initial;
+    background-color: violet;
+}
+hr{
+    border-color:gold;  
+    width:8%;             
+    border-style:dotted none none none;
+    border-width: 10px;
+    height:0px;
+}
+h1,h3{
+    color:cyan;
+}
+h1{
+    font-size: 80px;font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.h2{
+    font-size: 45px;
+}
+th,td{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.para{
+    font-family: Georgia, 'Times New Roman', Times, serif;font-size: 20px;
+}
+img{
+    border:2px solid;
+    border-radius: 50%;
+    border-color: black;
+}
+.c{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-color: gold;
+    color: gold;
+}
+ 
